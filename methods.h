@@ -1,7 +1,4 @@
 #include <curl/curl.h>
-#include <string.h>
-#include <stdlib.h>
-#include <stdio.h>
 
 
 #define APIVERSION	"v1"

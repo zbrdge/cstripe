@@ -2,6 +2,9 @@
  *   Stripe API using libcURL in plain old C
  */
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 #include "methods.h"
 
 // Your API keys here:
@@ -10,7 +13,7 @@
 
 int main() {
 
-  char *endpoint = "https://api.stripe.com";
+  char *endpoint = strdup ("https://api.stripe.com");
 
   CURL *curl;
 
